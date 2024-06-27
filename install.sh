@@ -13,7 +13,7 @@ display_welcome() {
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+]                AUTO INSTALLER THEMA             [+]${NC}"
-  echo -e "${BLUE}[+]                       © REYZXDZZ                    [+]${NC}"
+  echo -e "${BLUE}[+]                    © REYZXDZZ                    [+]${NC}"
   echo -e "${BLUE}[+]                                                 [+]${NC}"
   echo -e "${BLUE}[+] =============================================== [+]${NC}"
   echo -e ""
@@ -191,7 +191,7 @@ elif [ "$SELECT_THEME" -eq 3 ]; then
     # Mengganti placeholder dengan nilai dari pengguna
     sudo sed -i "s|https://wa.me/6288238792468|$LINK_WA|g" /root/pterodactyl/resources/scripts/components/dashboard/DashboardContainer.tsx
     sudo sed -i "s|https://t.me/roomreyzxdzz|$LINK_GROUP|g" /root/pterodactyl/resources/scripts/components/dashboard/DashboardContainer.tsx
-    sudo sed -i "s|https://t.me/roomreyzxdzz|$LINK_CHNL|g" /root/pterodactyl/resources/scripts/components/dashboard/DashboardContainer.tsx
+    sudo sed -i "s|https://whatsapp.com/channel/0029VaeDCBCHLHQZVoH5ap42|$LINK_CHNL|g" /root/pterodactyl/resources/scripts/components/dashboard/DashboardContainer.tsx
     
 
   sudo cp -rfT /root/pterodactyl /var/www/pterodactyl
